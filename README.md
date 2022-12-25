@@ -18,19 +18,6 @@
 
    `pip3 install -r requirements.txt`
 
-3. **To update the database**
-
-    `python manage.py migrate`
-
-4.  **To run the server**
-
-    `python manage.py runserver`
-
-4.  **To create an admin user**
-
-    `python manage.py createsuperuser`
-
-
 
 ##  work with  docker
   1.  `docker-compose up --build`
@@ -39,12 +26,12 @@
 
   4.  the admin
 
-          username :amani
-                passward :Amani
+          username :Amani
+                passward :amani
    5. the normal
 
-            username :walaa
-            passward :Walaa
+            username :Walaa
+            passward :walaa
 
 
 
