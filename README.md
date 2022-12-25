@@ -1,4 +1,52 @@
-# api-quick-start
+# LAB - Class 29
+
+## Project: API deployment
+
+### Author: Walaa' Atiyh  && Amani M Al-Zoubi
+
+### databass `elephantsql`
+
+#### How to initialize/run your application (where applicable)
+
+1. **Create the venv and activate it.**
+
+    `python3.10 -m venv .venv`
+    `source .venv/bin/activate`
+
+
+2. **install  requirements.txt**
+
+   `pip3 install -r requirements.txt`
+
+3. **To update the database**
+
+    `python manage.py migrate`
+
+4.  **To run the server**
+
+    `python manage.py runserver`
+
+4.  **To create an admin user**
+
+    `python manage.py createsuperuser`
+
+
+
+##  work with  docker
+  1.  `docker-compose up --build`
+  2.   `docker-compose run web python manage.py migrate`
+  3.  `docker-compose run web python manage.py createsuperuser`
+
+  4.  the admin
+
+          username :amani
+                passward :Amani
+   5. the normal
+
+            username :walaa
+            passward :Walaa
+
+
 
 Template Project for starting up CRUD API with Django Rest Framework
 
