@@ -58,3 +58,4 @@ Template Project for starting up CRUD API with Django Rest Framework
 - Run makemigrations and migrate commands
 - Run `collectstatic` if needed.
 - Optional: Update `api_tester.py`
+- test 
