@@ -24,13 +24,14 @@
   2.   `docker-compose run web python manage.py migrate`
   3.  `docker-compose run web python manage.py createsuperuser`
 
-  4.  users admin
-        1.
-          username :Amani
-          passward :amani
-        2.
-          username :Walaa
-          passward :walaa
+####  users admin
+  
+1.
+    - username :Amani
+    - passward :amani
+2.
+    - username :Walaa
+    - passward :walaa
 
 
 
