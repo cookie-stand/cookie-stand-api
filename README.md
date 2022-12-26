@@ -24,14 +24,13 @@
   2.   `docker-compose run web python manage.py migrate`
   3.  `docker-compose run web python manage.py createsuperuser`
 
-  4.  the admin
-
+  4.  users admin
+        1.
           username :Amani
-                passward :amani
-   5. the normal
-
-            username :Walaa
-            passward :walaa
+          passward :amani
+        2.
+          username :Walaa
+          passward :walaa
 
 
 
@@ -58,4 +57,4 @@ Template Project for starting up CRUD API with Django Rest Framework
 - Run makemigrations and migrate commands
 - Run `collectstatic` if needed.
 - Optional: Update `api_tester.py`
-- test 
+ 
